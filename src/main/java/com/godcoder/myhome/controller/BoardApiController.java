@@ -17,7 +17,7 @@ public class BoardApiController {
 
     // Aggregate root
 
-    @GetMapping("boards")
+    @GetMapping("/boards")
     List<Board> all(@RequestParam(required =false , defaultValue = "") String title,
                     @RequestParam(required = false, defaultValue = "") String content) {
         if(StringUtils.isEmpty(title) && StringUtils.isEmpty(content)) {
