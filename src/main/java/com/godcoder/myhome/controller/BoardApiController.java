@@ -2,6 +2,8 @@ package com.godcoder.myhome.controller;
 
 import com.godcoder.myhome.model.Board;
 import com.godcoder.myhome.repository.BoardRepository;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.thymeleaf.util.StringUtils;
